@@ -20,6 +20,7 @@ stream_handler.setFormatter(log_formatter)
 log.addHandler(stream_handler)
 
 
-a = 'a'
+a = [0, 1]
+a.insert(1, 2)
 
-log.info('a = %s'%(a[2:]))
+log.info('a = %s'%(a))
