@@ -21,5 +21,8 @@ log.addHandler(stream_handler)
 
 
 
-for i in range(1):
-    print("i = ", i)
+
+
+s = (1,2)
+i, j = s
+print(i,j)
