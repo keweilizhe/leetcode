@@ -20,9 +20,12 @@ stream_handler.setFormatter(log_formatter)
 log.addHandler(stream_handler)
 
 
+class A():
+    def __init__(self):
+        pass
 
+a = A()
 
+print(a.__class__)
+print(type(a))
 
-s = (1,2)
-i, j = s
-print(i,j)
